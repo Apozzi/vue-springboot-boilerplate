@@ -1,0 +1,61 @@
+  /* Tema customizado do boostrap */
+  $background-color: #2d2d2d;
+  $navbar-color: #272727;
+  $system-green: #42b983;
+  $light-grey: #6f6f6f;
+
+  html {
+    background: $background-color;
+  }
+
+  #app {
+    color: white;
+    background: $background-color;
+  }
+
+  a {
+    color: white;
+  }
+  
+  #nav {
+    text-align: center;
+    background-color: $navbar-color;
+    padding: 30px;
+    a {
+      font-weight: bold;
+      color: white;
+      &.router-link-exact-active {
+       color: $system-green;
+      }
+    }
+  }
+  
+  .card {
+    border:none !important;
+    .card-body {
+      background: #404040;
+    }
+  }
+  
+  .table-dark {
+    background: none !important;
+    th, tr, td {
+      border-color: $light-grey !important;
+    }
+  }
+  
+  .btn-link {
+    color: white !important;
+    font-weight: bold !important;
+    padding: 0 !important;
+  }
+  
+  .dropdown-menu {
+    background: #4e4e4e !important;
+    .dropdown-item {
+      font-weight: 100 !important;
+    }
+    :hover {
+      background: $light-grey !important;
+    }
+  }
